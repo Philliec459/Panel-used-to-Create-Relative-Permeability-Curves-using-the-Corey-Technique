@@ -9,3 +9,14 @@ in this example we are using python’s Panel widgets to set the Corey Exponents
 >
 >![cbw_vsh](RelativePerm.gif)
 >
+
+The Fractional flow (Fw) curve represents the ratio of the water phase mobility to the total mobility of both oil and water phases. The fractional flow equation accounts for the relative permeability of both phases and the effect of fluid viscosities:
+
+            Fw = 1 / (1 + Kro * μw / (Krw * μo))
+
+Where:
+- Fw: Fractional flow of water
+- Kro: Oil relative permeability
+- Krw: Water relative permeability
+- μo: Oil viscosity at reservoir conditions
+- μw: Water viscosity at reservoir conditions
